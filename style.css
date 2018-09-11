@@ -1,9 +1,33 @@
-    p {
+    .title {
     background-image: url(img_book.gif);
     background-position: left top;
     background-repeat: repeat;
     padding: 15px;
     color: white;
-}
+   
+        box-sizing: border-box;
+  
+    
+    
+        float: left;
+        width: 33.33%;
+        padding: 50px;
+   
+        content: "";
+        clear: both;
+        display: table;
+    }
+   
+    
+   
+    
+   
+    
+ 
+    
+   
+   
+   
+
 
 
