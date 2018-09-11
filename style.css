@@ -17,10 +17,48 @@
         clear: both;
         display: table;
     }
-   
-    
-   
-    
+    .pav1 {
+       
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    z-index: -1;}
+    .pav2 {
+       
+        position: absolute;
+        right: 20px;
+        top: 250px;
+        z-index: -1;}
+
+        .pav3 {
+       
+            position: absolute;
+            right: 20px;
+            top: 420px;
+            z-index: -1;}
+            h2 {
+       
+                position: absolute;
+                right: 110px;
+                top: 20px;
+                z-index: -1;}
+
+               h3 {
+                        position: absolute;
+                        left: 0;
+                        top: 40%;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 18px;}
+                        form {
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            width: 100%;
+                            text-align: center;
+                            font-size: 18px;}
+
+                        
    
     
  
