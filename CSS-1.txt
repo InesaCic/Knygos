@@ -1,6 +1,0 @@
-    #example1 {
-    background-image: url(book.gif);
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 80px;
-}
