@@ -1,43 +1,37 @@
     .title {
     background-image: url(img_book.gif);
-    background-position: left top;
+    background-position: top right;
     background-repeat: repeat;
     padding: 15px;
     color: white;
-   
         box-sizing: border-box;
-  
-    
-    
         float: left;
         width: 33.33%;
         padding: 50px;
-   
         content: "";
         clear: both;
         display: table;
     }
-    .pav1 {
-       
+
+    .pav1 { 
     position: absolute;
     right: 20px;
     top: 140px;
     z-index: -1;}
+
     .pav2 {
-       
         position: absolute;
         right: 20px;
         top: 310px;
         z-index: -1;}
 
         .pav3 {
-       
             position: absolute;
             right: 20px;
             top: 480px;
             z-index: -1;}
+
             h2 {
-       
                 position: absolute;
                 right: 110px;
                 top: 20px;
@@ -50,14 +44,16 @@
                         width: 100%;
                         text-align: center;
                         font-size: 18px;}
-                        .input {
-                            position: absolute;
-                            left: 0;
-                            top: 50%;
-                            width: 100%;
-                            text-align: center;
-                            font-size: 18px;}
-.button1 {
+
+.button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;}
+
+.button1 { 
         border-radius: 20px;
         height: 200px;
         background-color: gray; 
@@ -67,11 +63,11 @@
         height: 50px; 
        box-shadow: 4px 4px;
        font-weight: bold;
-        
-    }
+         }
+
 .button2 {
-        border-radius: 20px;
-        height: 200px;
+    border-radius: 20px;
+    height: 200px;
     background-color:gray;
     background-image: linear-gradient(to right, gray , blue); 
         padding: 20px; 
@@ -80,6 +76,7 @@
         box-shadow: 4px 4px;
         font-weight: bold;
     }
+
     .button3 {
         border-radius: 20px;
         height: 200px;
@@ -91,6 +88,7 @@
         box-shadow: 4px 4px;
         font-weight: bold;
     }
+
     .button4 {
         border-radius: 20px;
         height: 200px;
@@ -102,6 +100,7 @@
         box-shadow: 4px 4px;
         font-weight: bold;
     }
+
     .button5 {
         border-radius: 20px;
         height: 150px;
@@ -116,6 +115,294 @@
         transform: rotate(10deg);
     }
 
+    .boxes1 {
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        position: relative;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+    }
+     /* Safari 4.0 - 8.0 */
+     @-webkit-keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    .boxes2 {
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        position: relative;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-delay: -2s;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    .boxes3{
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        position: relative;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 3;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    .boxes4{
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        position: relative;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-direction: reverse;    
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    .boxes5{
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        position: relative;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+        -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;    
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    .boxes6{
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        font-weight: bold;
+        position: relative;
+        -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+        animation: mymove 5s infinite;
+        animation-iteration-count: 2;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    #boxes6 {animation-timing-function: linear;}
+    
+    
+    /* Standard syntax */
+    #boxes6 {animation-timing-function: linear;}
+  
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes mymove {
+        from {left: 0px;}
+        to {left: 300px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes mymove {
+        from {left: 0px;}
+        to {left: 300px;}
+    }
+    .boxes7{
+        width: 60px;
+        height: 60px;
+        background: red;
+        position: relative;
+        -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+        -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 3s;    
+        animation-fill-mode: forwards;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        from {top: 0px;}
+        to {top: 200px; background-color: blue;}
+    }
+    
+    @keyframes example {
+        from {top: 0px;}
+        to {top: 200px; background-color: blue;}
+    }
+    .boxes8{
+        width: 60px;
+        height: 60px;
+        background: red;
+        position: relative;
+        -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+        -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 3s;    
+        animation-delay: 2s;
+        animation-fill-mode: backwards;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        from {top: 0px; background-color: yellow;}
+        to {top: 200px;}
+    }
+    
+    @keyframes example {
+        from {top: 0px; background-color: yellow;}
+        to {top: 200px;}
+    }
+    .boxes9{
+        width: 60px;
+        height: 60px;
+        background: red;
+        position: relative;
+        -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+        -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 3s;    
+        animation-delay: 2s;
+        animation-fill-mode: both;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        from {top: 0px; background-color: yellow;}
+        to {top: 200px; background-color: blue;}
+    }
+    
+    @keyframes example {
+        from {top: 0px; background-color: yellow;}
+        to {top: 200px; background-color: blue;}
+    }
+    .boxes10{
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        position: relative;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-name: example;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-delay: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+        /* Standard syntax */
+        animation-name: example;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: 4;
+        animation-direction: alternate;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+   
+  
+    
+   
+    
+  
                         
    
     
