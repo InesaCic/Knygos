@@ -1,5 +1,6 @@
 
-    div.absolute   { background-image: url(img_book.gif);
+body {background-color:lightyellow;}
+div.main-title-containe  { background-image: url(img_book.gif);
     background-position: top center;
     padding: 15px;
     color: white;
@@ -8,30 +9,31 @@
     color: lightblue;
     }
 
-
     .pav1 { 
     position: absolute;
     left: 70px;
     top: 230px;
      width: 320px;
+    height: 150px;
         padding: 10px;
         border: 5px solid gray;
         margin: 5;
     }
-    .text1 {
+    .text0 {
         position: absolute;
         left: 440px;
         top: 230px;
          width: 320px;
         padding: 10px;
     border: 5px solid gray;
-    margin: 0;}
-
+    margin: 0;
+}
     .pav2 {
         position: absolute;
         left:  70px;
         top: 420px;
         width: 320px;
+    height: 150px;
         padding: 10px;
         border: 5px solid gray;
         margin: 5;
@@ -43,13 +45,14 @@
          width: 320px;
         padding: 10px;
     border: 5px solid gray;
-    margin: 0;}
-
+    margin: 0;
+}
         .pav3 {
             position: absolute;
             left: 70px;
             top: 610px;
             width: 320px;
+    height: 150px;
             padding: 10px;
         border: 5px solid gray;
         margin: 5;
@@ -61,24 +64,22 @@
                  width: 320px;
                 padding: 10px;
             border: 5px solid gray;
-            margin: 0;}
-
-          
-
+    margin: 0;
+}
                 h2 {
                     position: absolute;
                     right: 20px;
                     top: 230px;
                     text-align: center;
-                    font-size: 18px;}
-
+    font-size: 18px;
+}
 .button  {
     position: absolute;
     right: 20px;
     top: 275px;
     text-align: right;
-    font-size: 18px;}
-
+    font-size: 18px;
+}
 .button1 { 
         border-radius: 10px;
         background-color: lightslategray; 
@@ -90,7 +91,6 @@
        font-weight: bold;
        font-family: Arial, Helvetica, sans-serif;
          }
-
 .button2 {
     border-radius: 10px;
     background-color: lightslategray; 
@@ -102,7 +102,6 @@
    font-weight: bold;
    font-family: Arial, Helvetica, sans-serif;
     }
-
     .button3 {
         border-radius: 20px;
         background-color: lightslategray; 
@@ -114,7 +113,6 @@
        font-weight: bold;
        font-family: Arial, Helvetica, sans-serif;
     }
-
     .button4 {
         border-radius: 20px;
         background-color: lightslategray; 
@@ -126,7 +124,6 @@
        font-weight: bold;
        font-family: Arial, Helvetica, sans-serif;
     }
-
     .button5 {
         border-radius: 20px;
         background-color: lightslategray; 
@@ -138,20 +135,27 @@
        font-weight: bold;
        font-family: Arial, Helvetica, sans-serif;
     }
-
     .boxes1 {
-        position: bottom left;
+    border-radius: 20px;
         width: 60px;
         height: 60px;
         background-color: grey;
         position: relative;
+    animation-name: boxes1;
         animation-duration: 4s;
     }
+*box {
+    background-position-y: 20px;
+}
     .boxes1:hover {
         width: 800px;
     }
-  
+    @keyframes boxes1{
+    from {background-attachment: grey;}
+    to {background-color:violet;}
+}
     .boxes2 {
+    border-radius: 20px;
         width: 60px;
         height: 60px;
         background-color: goldenrod;
@@ -166,8 +170,8 @@
         75%  {background-color:green; left:0px; top:200px;}
         100% {background-color:red; left:0px; top:0px;}
     }
-        
     .boxes3{
+    border-radius: 20px;
         width: 60px;
         height: 60px;
         background-color:red;
@@ -176,7 +180,6 @@
         animation-duration: 2s;
         animation-iteration-count: 3;
     }
-
     @keyframes boxes3 {
         0%   {background-color:rosybrown; left:0px; top:0px;}
         25%  {background-color:red; left:200px; top:0px;}
@@ -185,6 +188,7 @@
         100% {background-color:red; left:0px; top:0px;}
     }
     .boxes4{
+    border-radius: 20px;
         width: 60px;
         height: 60px;
         background-color:brown;
@@ -201,6 +205,7 @@
         100% {background-color:red; left:0px; top:0px;}
     }
     .boxes5{
+    border-radius: 20px;
         width: 60px;
         height: 60px;
         background-color:green;
@@ -217,21 +222,20 @@
         75%  {background-color:green; left:0px; top:200px;}
         100% {background-color:red; left:0px; top:0px;}
     }
-    
     .boxes6 {    
+    border-radius: 20px;
     width: 60px;
     height: 60px;
     background:blueviolet;
     transition: width 2s, height 2s, transform 2s;
 }
-
 .boxes6:hover {
     width: 300px;
     height: 300px;
     transform: rotate(180deg);
 }
-
 .boxes7{
+    border-radius: 20px;
     width: 60px;
     height: 60px;
     background-color:blue;
@@ -247,8 +251,8 @@
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
 }
- 
 .boxes8{
+    border-radius: 20px;
     width: 60px;
     height: 60px;
     background:black;
@@ -257,13 +261,13 @@
     animation-duration: 3s;    
     animation-delay: 2s;
     animation-fill-mode: backwards;
-   
 }
 @keyframes example {
     from {top: 0px; background-color: yellow;}
     to {top: 200px;}
 }      
 .boxes9{
+    border-radius: 20px;
     width: 60px;
     height: 60px;
     position: relative;
@@ -275,6 +279,7 @@
    width: 300px;
 }
 .boxes10{
+    border-radius: 20px;
     width: 60px;
     height: 60px;
     background-color:grey;
@@ -285,10 +290,9 @@
     animation-delay: 2s;
     animation-iteration-count: 2;
     animation-direction: alternate;
+
 }
-
 @keyframes boxes10 {
-
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
@@ -296,21 +300,19 @@
     100% {background-color:red; left:0px; top:0px;}
 }  
     
-    
-   
-  
-    
-   
-    
-  
-                        
-   
-    
- 
-    
-   
-   
-   
+.registration {
+    border-radius: 20px;
+    border-color: grey;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+    display: inline;
+    font-size: 10px;
+    margin: 2px 4px;
+       cursor: pointer;}
 
 
-
+    .success {display: none;}
